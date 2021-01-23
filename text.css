@@ -1,22 +1,31 @@
-h1{
-    color: rgb(88, 0, 0);
+.kalin{
+    font-weight: bold;
 }
 
-#Giris{
-    color: rgb(117, 18, 101);
+.pembe{
+    color: rgb(255, 50, 193);
 }
-#Kimim{
-    color: darkcyan;
+
+.mor{
+    color: rgb(141, 50, 226);
 }
-#Nedir{
-    color: rgb(250, 42, 215);
+
+.mavi{
+    color: rgb(4, 110, 110);
 }
-#Ornek{
-    color: rgb(44, 255, 55);
+
+.turuncu{
+    color: darkorange;
 }
-#Sinif{
-    color: rgb(42, 139, 250);
+
+.kirmizi{
+    color: darkred;
 }
-#Gunluk{
-    color: rgb(250, 125, 42);
+
+.sari{
+    color: rgb(139, 139, 33);
+}
+
+.yesil{
+    color: rgb(12, 105, 33);
 }
