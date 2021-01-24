@@ -29,3 +29,23 @@
 .yesil{
     color: rgb(12, 105, 33);
 }
+
+
+ol li:hover{
+    background-color: rgb(0, 38, 255);
+}
+
+fieldset ::first-letter{
+    font-size: 111%;
+    
+}
+fieldset ::placeholder{
+    font-size: larger;
+    color: rgb(9, 82, 87);
+}
+fieldset::selection{
+    background-color: rgb(146, 201, 44);
+}
+input:checked + span{
+    background-color: rgb(122, 233, 141);
+}

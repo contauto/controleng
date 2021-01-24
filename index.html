@@ -25,10 +25,10 @@
     <div id="Giris" class="pembe kalin">
     <form id="1" action="giris.html" >
 
-        <fieldset> <legend><strong>Giriş Yap</strong></legend> <label>Kullanıcı Adı <input type=  "text" required maxlength="12"></label>
+        <fieldset> <legend><strong>Giriş Yap</strong></legend> <label>Kullanıcı Adı <input type=  "text" required maxlength="12" placeholder="En fazla 12 karakter"></label>
      <br>
      <label>
-         Şifre<input required type="password" minlength="8">
+         Şifre<input required type="password" minlength="8" placeholder="En az 8 karakter">
          </label>
      
      <br>
@@ -36,32 +36,32 @@
      <input required type="date" id="tarih" >
      <br>
      <label for="cins"></label>
-     <input id="cins" type="radio" required  > Erkek
-     <input id="cins" type="radio" required  > Kadın
+     <input id="cins" type="radio" required name="cins" value="erkek" > <span>Erkek</span>
+     <input id="cins" type="radio" required name="cins" value="kadin" > <span>Kadın</span>
      <br>
-     <label for="foto"></label>
-     
-     
-     <input type="file" multiple id="foto" accept="image/*" >
-     <br>
-     <input list="Öğrenim Seviyesi" form="1" required >
-     <datalist id="Öğrenim Seviyesi">
-        <optgroup> <option value="İlköğretim"></option>
-         <option value="Ortaöğretim"></option>
-         <option value="Lise"></option>
-         <option value="Lisans"></option></optgroup>
+     <b>Giriş Tipi</b>
+     <input list="giristipi" form="1" required >
+     <datalist id="giristipi">
+        <optgroup> <option value="ÖĞRENCİ"></option>
+         <option value="ÖĞRETMEN"></option>
+         <option value="VELİ"></option>
+         </optgroup>
      </datalist>
      <br>
      <label for="check">Okudum ve onaylıyorum</label>
      <input required type="checkbox" id="check" >
      
      <label for="tick" ></label>
-     <input required type="submit" id="tick"></fieldset>
+     <input required type="submit" id="tick">
+     <label for="sifir" ></label>
+     <input required type="reset" id="sifir">
+    </fieldset>
+     
      </form>
     </div>
     <div id="Kimim" class="mor kalin"> <fieldset>
         <legend><strong> Berke Maktav Kimdir?</strong></legend>
-    Berke Maktav Yıldız Teknik Üniversitesi'nde kontrol ve otomasyon mühendisliği okumaktadır. LinkedIn adresine gitmek için <a href="https://www.linkedin.com/in/berkemaktav/">buraya</a> tıklayabilirsin. </div>
+    Berke Maktav Yıldız Teknik Üniversitesi'nde kontrol ve otomasyon mühendisliği okumaktadır. LinkedIn adresine gitmek için <a class="lin" href="https://www.linkedin.com/in/berkemaktav/">buraya</a> tıklayabilirsin. </div>
     <br></fieldset>
    <div id="Nedir" class="kalin yesil"><fieldset><legend><strong>Otomasyon Mühendisi Nedir?</strong></legend>
     Otomasyon mühendisi, bir sistemin amaçlanan ve planlanan şekilde çalışmasını sağlayan kişidir. Otomasyon mühendisleri mesleklerinin adından da anlaşılabileceği gibi sistemlerin otomasyon yardımıyla çalışmasını sağlayıp yeni teknolojiler geliştirmek için çabalarlar.<br>
@@ -75,11 +75,11 @@ Steve Jobs bir konuşmasında <q>Ya otomasyon ya ölüm.</q> demiştir.
 <br>
 </fieldset>
 </div> 
-<div id="Ornek" class="mavi kalin">
+<div id="Ornek" class="mavi kalin" title="Otomasyon">
     <fieldset>
         <legend><strong>Otomasyonla alakalı bir video</strong></legend>
     <br>
-    <iframe width="300" height="150" src="https://www.youtube.com/embed/jS145VLpFws" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="300" height="150" class="vid" src="https://www.youtube.com/embed/jS145VLpFws" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </fieldset>
     </div>
 <div id="Sinif" class="turuncu kalin">
@@ -119,10 +119,13 @@ Steve Jobs bir konuşmasında <q>Ya otomasyon ya ölüm.</q> demiştir.
 <br>
 </fieldset></div>
 <div id="Gunluk" class="sari kalin">
+    
 <fieldset>
 <legend><strong>Günlük Rutinim</strong></legend>
-<Ol>
-    <li>
+
+<Ol class="rtn">
+    
+ <li>
         Sabah kalkarım.
     </li>
     <li>
@@ -136,6 +139,7 @@ Steve Jobs bir konuşmasında <q>Ya otomasyon ya ölüm.</q> demiştir.
     </li>
 </Ol>
 <br>
+
 </fieldset></div>
 
 
