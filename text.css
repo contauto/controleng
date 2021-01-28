@@ -59,3 +59,23 @@ input:invalid{
 input:valid{
     border-color: green;
 }
+
+h1{
+    text-shadow: 4px 4px 15px rgb(0, 0, 0);
+    text-align: center;
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+}
+
+.table1{
+    margin-left: auto;
+    margin-right: auto;
+}
+ol {
+    width: 11%;
+    margin: auto;
+}

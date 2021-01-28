@@ -1,5 +1,6 @@
 @import "text.css";
 
-body{
-    background-color: rgb(166, 255, 206);
+:root{
+    background-image: url(c.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
